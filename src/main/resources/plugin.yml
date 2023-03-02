@@ -1,0 +1,29 @@
+name: TestPlugin
+version: '${project.version}'
+main: com.andrew.test.Main
+api-version: 1.19
+authors: [ Andrew ]
+description: I don't know what im doing
+commands:
+  fly:
+    description: Allows a player to fly.
+  heal:
+    description: Restores the player's health and food bar.
+  god:
+    description: Enables and disables godmode.
+  kill:
+    description: Allows a player to kill themselves.
+  craft:
+    description: Opens a workbench.
+  echest:
+    description: Opens your enderchest.
+    aliases: ec
+  day:
+    description: Sets the time of day to day.
+  night:
+    description: Sets the time of day to night.
+  invsee:
+    description: Allows you to see into another player's inventory.
+
+
+
